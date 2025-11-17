@@ -1,1 +1,4 @@
-# AiRoadMap
+**Project Summary**
+
+
+This project focused on predicting customer churn for a Telco company, prioritizing the recall metric to minimize the high business cost of False Negatives (failing to identify actual churners). The workflow involved robust data preparation, including imputation, custom encoding for categorical data, and normalization of numerical features like tenure and MonthlyCharges. Four models—Logistic Regression, KNN, Decision Tree, and Random Forest—were trained and evaluated. The tuned Random Forest classifier demonstrated the best overall performance, balancing high recall with a strong ROC-AUC score. Key predictive features included Contract, tenure, InternetService, and MonthlyCharges. The final recommendation was to deploy the tuned Random Forest model to proactively identify at-risk customers, integrating it with a CRM system to trigger retention campaigns.
